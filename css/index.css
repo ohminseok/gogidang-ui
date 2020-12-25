@@ -1,0 +1,35 @@
+.screen-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.screen-header__logintitle span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.screen-header__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-header__header img {
+  width: 100px;
+  height: 100px;
+}
+
+.screen-header__header input {
+  width: 200px;
+}
+
+.shop-info {
+  margin-top: 100px;
+}
+
+.shop-info__thubnail img {
+  display: flex;
+  width: 500px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
