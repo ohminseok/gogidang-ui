@@ -16,6 +16,7 @@
 .screen-header__header img {
   width: 100px;
   height: 100px;
+  margin-left: 190px;
 }
 
 .screen-header__header input {
@@ -26,10 +27,66 @@
   margin-top: 100px;
 }
 
-.shop-info__thubnail img {
+.screen-shop__thubnail {
   display: flex;
-  width: 500px;
-  height: 300px;
   justify-content: center;
   align-items: center;
+}
+.screen-shop__thubnail img {
+  margin-top: 30px;
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.screen-shop__info1,
+.screen-shop__info2,
+.screen-shop__info3,
+.screen-shop__info4 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-shop__info1 i,
+.screen-shop__info2 i,
+.screen-shop__info3 i,
+.screen-shop__info4 i {
+  margin-right: 15px;
+}
+
+.screen-btn ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  color: white;
+}
+
+.screen-btn li {
+  margin: 10px 10px;
+}
+
+.screen-shop-first {
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.screen-shop-ment {
+  text-align: center;
+  background-color: red;
+  color: white;
+  margin: 50px 400px;
+}
+
+.screen-shop-meatinfo__img {
+  margin-left: 200px;
+  display: flex;
+}
+
+.screen-shop-meatinfo__img span {
+  padding-left: 30px;
 }
