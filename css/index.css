@@ -79,14 +79,115 @@
   text-align: center;
   background-color: red;
   color: white;
-  margin: 50px 400px;
+  margin: 50px 600px;
 }
 
 .screen-shop-meatinfo__img {
   margin-left: 200px;
   display: flex;
+  justify-content: center;
+  margin-left: -100px;
 }
 
 .screen-shop-meatinfo__img span {
   padding-left: 30px;
+}
+
+.screen-shop-meatinfo__img :nth-child(3) {
+  margin-left: -316px;
+  margin-top: 15px;
+}
+
+.screen-shop-meatinfo__plus {
+  margin: 100px 500px;
+
+  text-align: center;
+  background-color: green;
+  color: white;
+  height: 20px;
+}
+
+.screen-shop-review__title {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 0px 30px;
+  font-size: 25px;
+}
+
+.screen-shop-review__img {
+  display: flex;
+  justify-content: space-between;
+}
+.screen-shop-review__img img {
+  height: 250px;
+  width: 200px;
+  margin: 30px 100px;
+}
+
+.screen-shop-review__star {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 170px;
+}
+
+.screen-shop-review_plus {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 50px;
+}
+
+.screen-shop-location__title {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 0px 30px;
+  font-size: 25px;
+}
+
+.screen-shop-location__img {
+  text-align: center;
+  margin: 20px;
+}
+
+.screen-shop-question__title {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 0px 30px;
+  font-size: 25px;
+}
+
+.screen-shop-question__makebar {
+  display: flex;
+  justify-content: center;
+  margin: 100px 400px;
+  background-color: green;
+  color: white;
+}
+
+.screen-shop-question__qs1 {
+  text-align: center;
+  margin-left: -370px;
+  margin-bottom: 30px;
+}
+
+.screen-shop-question__qs1day {
+  text-align: center;
+  margin-left: -420px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.screen-shop-question__qs2 {
+  text-align: center;
+  margin-left: -490px;
+  margin-bottom: 20px;
+}
+
+.screen-shop-question__qs2day {
+  text-align: center;
+  margin-left: -420px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
